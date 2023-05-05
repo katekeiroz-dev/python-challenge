@@ -1,4 +1,4 @@
-#so MAS
+#so MASSJNS JSN
 
 
 r = input('Digite qualquer coisa')
