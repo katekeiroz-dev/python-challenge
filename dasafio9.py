@@ -1,13 +1,18 @@
 #Um programa que leia um numero e exiba a tabuada dele
 
 n = int(input('Digite um numero inteiro:'))
-v1 = int(n*1)
-v2 = int(n*2)
-v3 = int(n*3)
-v4 = int(n*4)
-v5 = int(n*5)
-v6 = int(n*6)
-v7 = int(n*7)
-v8 = int(n*8)
-v9 = int(n*9)
 
+print('-' * 12)
+print(' {} x {} = {} '.format(n, 1 , n))
+print(' {} x {:2} = {} '.format(n, 2 , n*2))
+print(' {} x {:2} = {} '.format(n, 3 , n*3))
+print(' {} x {:2} = {} '.format(n, 4 , n*4))
+print(' {} x {:2} = {} '.format(n, 5 , n*5))
+print(' {} x {:2} = {} '.format(n, 6 , n*6))
+print(' {} x {:2} = {} '.format(n, 7 , n*7))
+print(' {} x {:2} = {} '.format(n, 8 , n*8))
+print(' {} x {:2} = {} '.format(n, 9 , n*9))
+print(' {} x {:2} = {} '.format(n, 10 , n*10))
+print('-' * 12)
+
+#o :2 apenas para deixar alinhado,ou seja pular 2 digitos
